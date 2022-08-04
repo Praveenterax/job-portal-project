@@ -1,0 +1,240 @@
+.tableBox {
+  margin-top: 30px;
+  box-shadow: 3px 3px 5px 1px rgb(0, 0, 0, 0.25);
+  overflow-x: auto;
+}
+
+.tableHeader th {
+  text-align: center;
+  background-color: #17b3a3;
+  font-size: 16px;
+  color: white;
+  /* color: rgb(29, 28, 28); */
+}
+
+.tableBody tr {
+  /* min-height: 60px; */
+  background-color: white;
+  text-align: center;
+}
+
+.rowStyle {
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.repo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.span11 {
+  font-size: 1.3rem;
+
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* .expo{
+  width: 50%;
+}
+.subm{
+ width: 50%;
+} */
+
+.str1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.end1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.buttonsty {
+  background-color: #247cf0;
+  border-color: #247cf0;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.csvsty {
+  background-color: #eb6709;
+  border-color: #eb6709;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.textstyl {
+  margin-top: 5px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.str2 {
+  margin-bottom: 10px;
+}
+.str21 {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.csvsty a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .repo,
+  .subm,
+  .expo {
+    width: 100%;
+    margin: 10px 0;
+    /* justify-content: center; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .repo,
+  .col,
+  .subm,
+  .expo {
+    width: 100%;
+    margin: 5px 0;
+    /* justify-content: center; */
+  }
+
+  .span11 {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .buttonsty {
+    width: 100%;
+  }
+  .csvsty {
+    width: 100%;
+  }
+
+  /* .str1,.end1{
+    width: 25%;
+
+  } */
+  /* .textstyl, .input input{
+    width: 100%;
+
+  }
+  .actions{
+    width: 50%;
+  } */
+  .actions {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 775px) and (max-width: 1000px) {
+  .buttonsty {
+    width: 100%;
+  }
+  .csvsty {
+    width: 100%;
+  }
+  .actions {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 520px) {
+  .span11 {
+    width: 50%;
+  }
+  .str1,
+  .end1 {
+    flex-direction: row;
+  }
+  .filters {
+    display: flex;
+    flex-direction: column;
+  }
+  .actions {
+    flex-direction: column;
+  }
+
+  .subm {
+    justify-content: center;
+  }
+
+  .buttonsty {
+    width: 100%;
+  }
+  .expo {
+    justify-content: center;
+  }
+  .csvsty {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .span11 {
+    width: 50%;
+  }
+  .str1,
+  .end1 {
+    flex-direction: row;
+  }
+  .str2,
+  .str21 {
+    width: 100%;
+  }
+  .filters {
+    display: flex;
+    flex-direction: column;
+  }
+  .actions {
+    flex-direction: column;
+  }
+
+  .subm {
+    justify-content: center;
+  }
+
+  .buttonsty {
+    width: 100%;
+    flex-direction: column;
+  }
+  .expo {
+    justify-content: center;
+  }
+  .csvsty {
+    width: 100%;
+    flex-direction: column;
+  }
+}

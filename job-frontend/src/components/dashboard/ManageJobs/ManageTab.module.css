@@ -1,0 +1,203 @@
+.rowStyle {
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+
+.manageUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col input {
+  padding: 0px 15px;
+  width: 18rem;
+  height: 40px;
+  border-radius: 22px;
+  border: 1px solid rgb(151, 149, 149);
+}
+.col input:hover {
+  border: 1px solid rgb(48, 47, 47);
+}
+.col input:focus {
+  outline: none;
+  border: 2px solid rgb(13, 162, 189);
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input select {
+  height: 40px;
+  width: 10rem;
+  border: 1px solid rgb(151, 149, 149);
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.input label {
+  font-size: 1.3rem;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.input select:hover {
+  border: 1px solid rgb(48, 47, 47);
+  cursor: pointer;
+}
+
+.input select:focus {
+  border: 2px solid rgb(13, 162, 189);
+}
+
+.span {
+  font-size: 1.3rem;
+
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.addUser {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button {
+  width: 80%;
+  background-color: #247cf0;
+  border-color: #247cf0;
+  box-shadow: 3px 3px 5px 0px rgb(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  background-color: #3e8ef7;
+  border-color: #3e8ef7;
+}
+
+.button:active,
+.button:focus {
+  background-color: #247cf0;
+  outline: 1px solid #247cf0;
+  border-color: #247cf0;
+
+  transform: translateY(2px);
+  box-shadow: 1px 1px 5px 0px rgb(0, 0, 0, 0.25);
+}
+.tableHeader th {
+  text-align: center;
+  background-color: #17b3a3;
+  font-size: 16px;
+  color: white;
+  /* color: rgb(29, 28, 28); */
+}
+
+.tableBody tr {
+  /* min-height: 60px; */
+  background-color: white;
+}
+
+.tableBox {
+  margin-top: 30px;
+  box-shadow: 3px 3px 5px 1px rgb(0, 0, 0, 0.25);
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .rowStyle,
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input {
+    margin-top: 5px;
+  }
+
+  .col input {
+    width: 100%;
+  }
+
+  .input select {
+    height: 25px;
+    width: 100%;
+  }
+
+  .manageUsers,
+  .col,
+  .addUser {
+    width: 100%;
+    margin: 10px 0;
+    /* justify-content: center; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  .manageUsers,
+  .col,
+  .addUser {
+    width: 100%;
+    margin: 5px 0;
+    /* justify-content: center; */
+  }
+  .col {
+    width: 100%;
+  }
+  .col input {
+    width: 80%;
+  }
+  .span {
+    width: fit-content;
+    text-align: center;
+  }
+  .button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+  .col input {
+    width: 10rem;
+  }
+  .input select {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .span {
+    width: 100%;
+  }
+  .col {
+    display: flex;
+    flex-direction: row;
+  }
+  .col input {
+    width: 100%;
+  }
+  .addUser {
+    justify-content: center;
+  }
+  .button {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .button {
+    width: 90%;
+  }
+}

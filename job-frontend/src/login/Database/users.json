@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "username": "Admin",
+      "password": "Admin@630",
+      "id": 1,
+      "role": "ADMIN"
+    },
+    {
+      "email": "hari@gmail.com",
+      "username": "hari",
+      "password": "hari36",
+      "id": 1,
+      "role": "USER"
+    },
+    {
+      "email": "charan@gmail.com",
+      "username": "Charan",
+      "password": "charan12",
+      "id": 1,
+      "role": "JOBSEEKER"
+    },
+    {
+      "email": "nivetha@gmail.com",
+      "username": "Nivetha",
+      "password": "nivetha34",
+      "id": 1,
+      "role": "JOBPROVIDER"
+    },
+    {
+      "email": "harikiran@gmail.com",
+      "password": "hari25",
+      "mobile": "9182881794",
+      "id": 2
+    },
+    {
+      "email": "dheeru@gmail.com",
+      "password": "dheeraj",
+      "mobile": "9182881792",
+      "id": 3
+    },
+    {
+      "email": "sdf@gmail.com",
+      "password": "12345667",
+      "mobile": "9182887198",
+      "id": 4
+    },
+    {
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 5
+    },
+    {
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 6
+    }
+  ]
+}

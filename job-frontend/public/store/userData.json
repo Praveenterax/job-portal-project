@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Praveen",
+    "email": "praveen@test.com",
+    "password": "qwertyuio",
+    "age": "22",
+    "mobile": "0123456789",
+    "dateCreated": "17/10/2017, 12:51:06 am",
+    "gender": "Male",
+    "qualification": "Post Graduate",
+    "experience": "0-2",
+    "role": "User"
+  },
+  {
+    "id": 2,
+    "name": "Nivetha",
+    "email": "nivetha@test.com",
+    "password": "qwertyuio",
+    "age": "22",
+    "mobile": "1234567890",
+    "dateCreated": "19/02/2014, 2:21:40 am",
+    "gender": "Female",
+    "qualification": "Graduate",
+    "experience": "3-7",
+    "role": "Job Provider"
+  },
+  {
+    "id": 3,
+    "name": "Hari",
+    "email": "hari@test.com",
+    "password": "qwertyuio",
+    "age": "22",
+    "mobile": "2345678901",
+    "dateCreated": "10/05/2012, 3:30:42 am",
+    "gender": "Male",
+    "qualification": "Diploma",
+    "experience": "7-10",
+    "role": "User"
+  },
+  {
+    "id": 4,
+    "name": "Charan",
+    "email": "charan@test.com",
+    "password": "qwertyuio",
+    "age": "22",
+    "mobile": "3456789012",
+    "dateCreated": "01/10/2017, 12:18:33 am",
+    "gender": "Male",
+    "qualification": "Post Graduate",
+    "experience": "0-2",
+    "role": "User"
+  },
+  {
+    "id": 5,
+    "name": "Sarath",
+    "email": "sarath@test.com",
+    "password": "qwertyuio",
+    "age": "22",
+    "mobile": "4567890123",
+    "dateCreated": "27/06/2017, 11:56:32 pm",
+    "gender": "Male",
+    "qualification": "Post Graduate",
+    "experience": "0-2",
+    "role": "User"
+  },
+  {
+    "id": 6,
+    "name": "Chandra",
+    "email": "sarcath@test.com",
+    "password": "qwertyuio",
+    "age": "22",
+    "mobile": "4567890123",
+    "dateCreated": "18/07/2015, 6:44:22 pm",
+    "gender": "Male",
+    "qualification": "Post Graduate",
+    "experience": "0-2",
+    "role": "Job Provider"
+  }
+]

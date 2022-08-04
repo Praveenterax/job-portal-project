@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+body {
+  margin: 0;
+  /* background-color: #f3f3f3; */
+  /* background-color: rgb(240, 242, 245); */
+  background-color: #e4eaec;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.error {
+  color: #ff4444;
+}
+
+.invalid {
+  border: none;
+  outline: 1px solid #ff4444;
+}
+
+.login-error {
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(238, 118, 118);
+  color: white;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+.spinner {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  z-index: 100;
+}
+.spinner img {
+  position: fixed;
+  margin: auto auto;
+  top: 35vh;
+  left: 42vw;
+}

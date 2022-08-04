@@ -1,0 +1,47 @@
+<Row className="mb-3">
+            <Form.Group controlId="validationFormik03">
+              <InputGroup hasValidation>
+                <InputGroup.Text id="inputGroupPrepend">Email</InputGroup.Text>
+                <Form.Control
+                  type="text"
+                  placeholder="example@mail.com"
+                  name="email"
+                  value={values.email}
+                  onChange={handleChange}
+                  isInvalid={!!errors.email}
+                />
+
+                <Form.Control.Feedback type="invalid">
+                  {errors.email}
+                </Form.Control.Feedback>
+              </InputGroup>
+            </Form.Group>
+          </Row>
+          <Row className="mb-3">
+            <Form.Group controlId="formFile" className="mb-3">
+              <Form.Label>Resume</Form.Label>
+              <Form.Control
+                type="file"
+                name="resume"
+                required
+                onChange={handleChange}
+                isInvalid={!!errors.resume}
+                feedback={errors.resume}
+                // feedbackType="invalid"
+              />
+              <Form.Control.Feedback type="invalid">
+                {errors.resume}
+              </Form.Control.Feedback>
+            </Form.Group>
+          </Row>
+          <Form.Group className="mb-3">
+            <Form.Check
+              required
+              name="terms"
+              label="Agree to terms and conditions"
+              onChange={handleChange}
+              isInvalid={!!errors.terms}
+              feedback={errors.terms}
+              id="validationFormik0"
+            />
+          </Form.Group>

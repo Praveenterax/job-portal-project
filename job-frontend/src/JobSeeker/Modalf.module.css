@@ -1,0 +1,122 @@
+.abc {
+  margin-left: -150px;
+  border-color: #bfc3cf;
+}
+
+.form-label {
+  margin-top: 1.5rem;
+  border: none;
+}
+
+.control-label {
+  color: black;
+}
+
+.modal-header {
+  background-color: #2b63fd;
+  background-image: #2b63fd;
+  border-color: #2b63fd;
+  border: none;
+}
+
+.modal-title {
+  color: white;
+  margin-left: 150px;
+  border: none;
+}
+
+.cardstyle {
+  margin-left: 70px;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+  /* background-color: rgb(240 253 250); */
+  background-color: white;
+}
+
+.modalButtonStyle {
+  border: none;
+  outline: none;
+  width: 70px;
+  height: 40px;
+  margin-left: 145px;
+  overflow: hidden;
+  margin-top: 10px;
+  border-color: #4a5e96;
+  font-size: 14px;
+}
+.style {
+  font-size: 13px;
+  margin-top: 10px;
+  color: rgb(100 116 139);
+  text-align: justify;
+}
+.modalButtonstyle {
+  width: 70px;
+  height: 40px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-color: #4a5e96;
+  font-size: 14px;
+  margin-left: auto;
+  outline: none;
+  border: none;
+}
+.modalButtonStyle:hover,
+.modalButtonstyle:hover {
+  filter: brightness(110%);
+}
+
+.badge {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.cardbody {
+  border-color: #656f8a;
+}
+
+.register {
+  margin-left: 10px;
+}
+
+.errors {
+  color: red;
+}
+
+.grid {
+  margin-top: 50px;
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}
+
+.images {
+  width: 286px;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.description {
+  /* wi/dth: 100%; */
+  height: 45px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deadlines {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates {
+  padding: 3px;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shortlistedButton i {
+  color: red;
+}

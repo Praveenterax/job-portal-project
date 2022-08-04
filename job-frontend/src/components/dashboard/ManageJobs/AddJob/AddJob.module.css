@@ -1,0 +1,23 @@
+.submitBtn {
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 100%;
+  /* border-radius: 50px; */
+  background-color: #2b63fd;
+  color: white;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.35);
+  font-size: 20px;
+}
+.submitBtn:active {
+  transform: translateY(5px);
+  box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.5);
+}
+.submitBtn:hover {
+  filter: brightness(115%);
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}

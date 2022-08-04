@@ -1,0 +1,14 @@
+.manageUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-left: 7.5rem; */
+  /* background-color: greenyellow; */
+}
+.span {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  text-align: center;
+}

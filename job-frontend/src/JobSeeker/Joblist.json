@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "./images/loop-studios.svg",
+    "job": "UI/UX Designer",
+    "description": " They understand the user interface design solution both in its practical intent and creative vision, and convert it into engineered softwares."
+  },
+  {
+    "id": 2,
+    "img": "./images/account.svg",
+    "job": "Sr-Associate",
+    "description": "Senior Associates work with clients throughout all stages of strategy-based projects to identify, clarify and resolve complex issues critical to clients. "
+  },
+  {
+    "id": 3,
+    "img": "./images/manage.svg",
+    "job": "Web Developer",
+    "description": "A Web Developer is a professional who is responsible for the design and construction of websites. They ensure that sites meet user expectations."
+  },
+  {
+    "id": 4,
+    "img": "./images/photosnap.svg",
+    "job": "Sales Executive",
+    "description": "A sales executive is responsible for helping build up a business by identifying new business prospects and selling product to them."
+  },
+  {
+    "id": 5,
+    "img": "./images/shortly.svg",
+    "job": "Marketing Member",
+    "description": "Managing and developing marketing campaigns. Researching and analyzing data to identify and define audiences. Conducting promotional activities for the growth of company. "
+  },
+  {
+    "id": 6,
+    "img": "./images/insure.svg",
+    "job": "Programme analyst",
+    "description": "A Program Analyst, or Program Evaluator, reviews a company's computer systems to ensure they operate properly and efficiently. To determine requirements for each system."
+  },
+  {
+    "id": 7,
+    "img": "./images/faceit.svg",
+    "job": "Project Manager",
+    "description": "A project manager's role is to take on the responsibility for a specific project or several projects within an organization. They are in charge of planning and reporting the project."
+  },
+  {
+    "id": 8,
+    "img": "./images/myhome.svg",
+    "job": "Cashier",
+    "description": "Cashier responsibilities include receiving payments and issuing receipts,  keeping track of all cash and credit transactions good knowledge of how cash registers operate."
+  },
+  {
+    "id": 9,
+    "img": "./images/eyecam-co.svg",
+    "job": "Front End Developer",
+    "description": "Front end developers are computer programmers who specialize in website design. Front end developer duties include determining the structure and design of web pages."
+  },
+  {
+    "id": 10,
+    "img": "./images/the-air-filter-company.svg",
+    "job": "Intern",
+    "description": "Interns assist the company with tasks set out by various teams, such as research, data capturing and working closely with different team members to learn more about the company."
+  }
+]

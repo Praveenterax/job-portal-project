@@ -1,0 +1,50 @@
+
+.rowStyle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.span {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  text-align: center;
+}
+.tableHeader th {
+  text-align: left;
+  background-color: #2b63fd;
+  font-size: 16px;
+  color: white;
+  padding:8px;
+
+  /* color: rgb(29, 28, 28); */
+}
+
+.tableBody tr {
+  /* min-height: 60px; */
+  background-color: white;
+}
+
+.tableBox {
+  margin-top: 30px;
+  box-shadow: 3px 3px 5px 1px rgb(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 600px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .span {
+    width: 30%;
+    text-align: center;
+  }
+
+}

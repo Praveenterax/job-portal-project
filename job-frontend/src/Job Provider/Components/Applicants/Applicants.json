@@ -1,0 +1,68 @@
+[
+  {
+    "userId": 2342,
+    "jobId": "1",
+    "name": "Praveen",
+    "title": "Web developer",
+    "description": " HTML5, CSS3, and responsive design",
+    "category": "Software Development",
+    "startDate": "2018-12-31",
+    "endDate": "2019-04-03",
+    "providerId": "20123"
+  },
+  {
+    "userId": 2789,
+    "name": "Nivetha",
+    "jobId": "4",
+    "title": "HR Manger",
+    "description": " Manage and Train new gen employees",
+    "category": "HR Department",
+    "startDate": "2016-12-31",
+    "endDate": "2017-08-03",
+    "providerId": "22033"
+  },
+  {
+    "userId": 2456,
+    "name": "Hari",
+    "jobId": "3",
+    "title": "Systems Engineer",
+    "description": "Software upgaradation and system maintenance",
+    "category": "Techincal and Hardware",
+    "startDate": "2020-11-05",
+    "endDate": "2021-04-03",
+    "providerId": "15988"
+  },
+  {
+    "userId": 2315,
+    "name": "Charan",
+    "jobId": "7",
+    "title": "Sr. Software Engineer",
+    "description": "Versatile in C,C++",
+    "category": "Software Development",
+    "startDate": "2021-12-31",
+    "endDate": "2022-04-30",
+    "providerId": "36645"
+  },
+  {
+    "userId": 2388,
+    "name": "Sarath",
+    "jobId": "9",
+    "title": "Accountant",
+    "description": "Manage and verify accounts",
+    "category": "Front Desk",
+    "startDate": "2022-02-15",
+    "endDate": "2022-06-15",
+    "providerId": "56682"
+  },
+  {
+    "userId": 2678,
+    "name": "Arjun",
+    "jobId": "9",
+    "title": "Intern",
+    "description": "UI development and Design using React",
+    "category": "Software Development",
+    "startDate": "2022-04-05",
+    "endDate": "2022-07-31",
+    "providerId": "11432"
+  }
+]

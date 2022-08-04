@@ -1,0 +1,28 @@
+.rowStyle {
+  margin: 50px 0;
+}
+
+.colStyle {
+  min-height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 14rem;
+  height: 5rem;
+  background-color: #3673e4;
+  color: white;
+}
+
+.cardstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardInfo {
+  color: black;
+  box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.1);
+}

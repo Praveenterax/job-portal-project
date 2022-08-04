@@ -1,0 +1,121 @@
+.nav {
+  min-height: 75px;
+  letter-spacing: 4px;
+  /* background-color: #0bb2d4; */
+}
+
+.logo {
+  font-size: 1.65rem;
+  padding: 5px;
+}
+
+.brand {
+  margin-left: 20px;
+  font-size: 2rem;
+}
+
+.brand {
+  color: white;
+  text-decoration: none;
+}
+
+.brand:hover {
+  color: white;
+}
+
+.pageLinks {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pageLinks a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.pageLinks a:hover {
+  border-bottom: 1px solid white;
+}
+
+.disabled a {
+  cursor: not-allowed;
+  color: whitesmoke;
+}
+.disabled a:hover {
+  border: none;
+}
+
+a.active {
+  color: white;
+  border-radius: 2px;
+  border-bottom: 1px solid white;
+}
+.user {
+  /* background-color: #3e8ef7; */
+  border: none;
+  /* margin-right: 20px; */
+  letter-spacing: 2px;
+  color: white;
+}
+
+.user:hover {
+  /* background-color: #3e8ef7; */
+  border: none;
+  outline: none;
+}
+.user:active {
+  /* background-color: #3e8ef7; */
+  border: none;
+  outline: none;
+}
+
+.dropDown > .dropdown-menu {
+  width: 14rem;
+}
+.dropDown a {
+  width: 100%;
+  display: block;
+}
+.changePassword {
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+}
+.changePassword:hover {
+  color: inherit;
+  background-color: #e9ecef;
+}
+.user button:hover,
+button:active {
+  /* background-color: #3e8ef7; */
+  border: none;
+  outline: none;
+}
+
+.username {
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.username:hover {
+  color: white;
+}
+
+.userLogo {
+  padding: 5px;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 281px) {
+  .brand {
+    margin-left: 0;
+    font-size: 1.7rem;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "SERVER_URL": "http://localhost:8080/",
+  "TITLE": {
+    "APP_TITLE": "JOB HUNT",
+    "LOGIN": "Login",
+    "FORGOT_PASSWORD": "Forgot Password",
+    "CHANGE_PASSWORD": "Change Password",
+    "REGISTER": "Register",
+    "DASHBOARD": "Dashboard",
+    "MANAGE_USERS": "Manage Users",
+    "MANAGE_JOBS": "Manage Jobs",
+    "REPORTS": "Reports",
+    "MANAGE_APPLICANTS": "Manage Applicants",
+    "APPLIED_JOBS": "Applied Jobs"
+  }
+}

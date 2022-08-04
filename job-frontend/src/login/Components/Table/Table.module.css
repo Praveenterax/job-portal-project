@@ -1,0 +1,46 @@
+.rowStyle {
+    margin-top: 75px;
+    margin-bottom: 15px;
+  }
+  .span {
+    background-color: white;
+    padding: 8px;
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 4px;
+  }
+  .button {
+    background-color: #6495ed;
+  }
+  
+  .tableHeader th {
+    text-align: center;
+    background-color: #6495ed;
+    color: rgb(29, 28, 28);
+  }
+  .actionButton {
+    margin: 0px 2px;
+    background-color: inherit;
+    color: rgb(59, 168, 231);
+    font-size: 1rem;
+    padding: 4px;
+    border: none;
+    /* border-bottom: 1px solid rgb(41, 40, 40); */
+    /* border: 0 0 1px 0 solid black; */
+  }
+  .actionButton:hover {
+    font-weight: 600;
+    color: rgb(17, 148, 224);
+    border-bottom: 1px solid rgb(41, 40, 40);
+  }
+  .paginate {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 1000px) {
+    .tableContainer {
+      width: 500px;
+      /* background-color: red; */
+    }
+  }
+  
